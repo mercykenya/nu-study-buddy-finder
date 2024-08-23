@@ -1,0 +1,59 @@
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+    --primary-color: #4E2A84;
+    --secondary-color: #836EAA;
+    --card-bg-color: #ffffff;
+  }
+  
+  :root.dark-mode {
+    --bg-color: #1a1a1a;
+    --text-color: #f5f5f5;
+    --primary-color: #836EAA;
+    --secondary-color: #4E2A84;
+    --card-bg-color: #2a2a2a;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .App {
+    font-size: var(--font-size, 16px);
+  }
+  
+  /* Add styles for AccessibilityControls */
+  .accessibility-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .accessibility-controls button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .font-size-controls {
+    display: flex;
+    gap: 5px;
+  }

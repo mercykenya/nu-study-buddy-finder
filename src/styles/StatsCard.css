@@ -1,0 +1,28 @@
+.stats-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+  
+  .stats-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #4E2A84;
+    margin-bottom: 1rem;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-key {
+    color: #4b5563;
+  }
+  
+  .stat-value {
+    font-weight: 500;
+  }

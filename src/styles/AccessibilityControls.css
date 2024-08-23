@@ -1,0 +1,27 @@
+.accessibility-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .accessibility-controls button {
+    background-color: var(--primary-color, #4E2A84);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .accessibility-controls button:hover {
+    background-color: var(--secondary-color, #836EAA);
+  }
+  
+  .font-size-controls {
+    display: flex;
+    gap: 5px;
+  }

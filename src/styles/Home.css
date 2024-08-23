@@ -1,0 +1,182 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .welcome-message {
+    font-size: 32px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-card {
+    background-color: var(--card-bg-color);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dashboard-card h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+  }
+  
+  /* Upcoming Sessions Styles */
+  .upcoming-sessions .session-item {
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--secondary-color);
+  }
+  
+  .upcoming-sessions .session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .upcoming-sessions .session-course {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--primary-color);
+  }
+  
+  .upcoming-sessions .session-time {
+    background-color: var(--primary-color);
+    color: var(--card-bg-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .upcoming-sessions .session-details {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+  }
+  
+  /* Study Stats Styles */
+  .study-stats .stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .study-stats .stat-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .study-stats .stat-label {
+    color: var(--text-color);
+    font-size: 16px;
+  }
+  
+  /* Suggested Buddies Styles */
+  .suggested-buddies .buddy-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+  }
+  
+  .suggested-buddies .buddy-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .suggested-buddies .buddy-name {
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .suggested-buddies .buddy-course {
+    color: var(--text-color);
+    font-size: 14px;
+  }
+  
+  .suggested-buddies .buddy-compatibility {
+    background-color: var(--primary-color);
+    color: var(--card-bg-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .study-tip {
+    background-color: var(--card-bg-color);
+    border-left: 6px solid var(--primary-color);
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .study-tip h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  .study-tip p {
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .welcome-message {
+      font-size: 28px;
+    }
+  }
+  
+  /* Dark mode enhancements */
+  :root.dark-mode .dashboard-card {
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+  }
+  
+  :root.dark-mode .dashboard-card:hover {
+    box-shadow: 0 12px 20px rgba(255, 255, 255, 0.15);
+  }
+  
+  :root.dark-mode .upcoming-sessions .session-item,
+  :root.dark-mode .suggested-buddies .buddy-item {
+    border-color: var(--primary-color);
+  }
+  
+  :root.dark-mode .study-tip {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
