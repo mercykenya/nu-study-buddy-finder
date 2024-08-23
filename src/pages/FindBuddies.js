@@ -74,7 +74,7 @@ function FindBuddies() {
     preference: '',
     availability: ''
   });
-  const [appliedFilters, setAppliedFilters] = useState({});
+  const [setAppliedFilters] = useState({});
   const [filteredBuddies, setFilteredBuddies] = useState([]);
   const { fontSizes } = useFontSize();
 
@@ -87,7 +87,7 @@ function FindBuddies() {
 
   useEffect(() => {
     setFilteredBuddies(allBuddies);
-  }, []);
+  }, [allBuddies]);
 
   const handleFilterChange = (e) => {
     setFilters({
