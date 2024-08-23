@@ -1,74 +1,87 @@
-<<<<<<< HEAD
-# nu-study-buddy-finder
-=======
-# Getting Started with Create React App
+# Northwestern University Study Buddy Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+The Northwestern University Study Buddy Finder is a web application designed to help students connect with study partners, form study groups, and enhance their academic experience. This app is built using React and focuses on providing an accessible, responsive, and user-friendly interface.
 
-## Available Scripts
+## Live Demo
+You can access the live version of the Study Buddy Finder at: [https://nu-study-buddy-finder.netlify.app](https://nu-study-buddy-finder.netlify.app)
 
-In the project directory, you can run:
+## Features
+- User profile creation and management
+- Study buddy matching based on courses and preferences
+- Study group formation and management
+- Session scheduling
+- Accessibility features including font size adjustment and dark mode
+- Responsive design for various devices and screen sizes
 
-### `npm start`
+## Running the Application Locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js (version 14.0.0 or later)
+- npm (version 6.0.0 or later)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/nu-study-buddy-finder.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd nu-study-buddy-finder
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm test`
+### Starting the Application
+1. Run the development server:
+   ```
+   npm start
+   ```
+2. Open your browser and visit `http://localhost:3000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accessibility Features
+- Font size adjustment
+- Dark mode / light mode toggle
+- Keyboard navigation support
+- Screen reader friendly
+- High contrast mode
+- Reduced motion option
 
-### `npm run build`
+## Responsive Design
+The application is designed to be fully responsive and mobile-friendly. It has been tested and optimized for various devices and screen sizes, including:
+- Desktop computers
+- Laptops
+- Tablets
+- Mobile phones
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Browser Compatibility
+The Study Buddy Finder has been tested and is compatible with the following browsers:
+- Google Chrome (latest version)
+- Mozilla Firefox (latest version)
+- Safari (latest version)
+- Microsoft Edge (latest version)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Video
+For a comprehensive demonstration of the Study Buddy Finder app, including its features, accessibility options, and responsive design, please view our project video:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Link to Project Video](https://www.example.com/project-video)
 
-### `npm run eject`
+## Deployment
+The application is deployed using Netlify. To deploy your own version:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork this repository to your GitHub account.
+2. Sign up for a Netlify account if you don't have one.
+3. In Netlify, create a "New site from Git" and select your forked repository.
+4. Set the build command to: `npm run build`
+5. Set the publish directory to: `build`
+6. Click "Deploy site"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Additional Notes
+- The application uses CSS variables for theming, allowing for easy customization and the implementation of different color schemes.
+- All images in the application have appropriate alt text for screen reader compatibility.
+- The app is fully functional with JavaScript enabled, but also provides basic functionality when JavaScript is disabled.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> dfcb81c (Initialize project using Create React App)
+## Feedback and Contributions
+We welcome feedback and contributions to improve the Northwestern University Study Buddy Finder. Please submit issues or pull requests through our GitHub repository.
