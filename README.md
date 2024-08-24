@@ -4,7 +4,7 @@
 The Northwestern University Study Buddy Finder is a web application designed to help students connect with study partners, form study groups, and enhance their academic experience. This app is built using React and focuses on providing an accessible, responsive, and user-friendly interface.
 
 ## Live Demo
-You can access the live version of the Study Buddy Finder at: [https://nu-study-buddy-finder.netlify.app](https://nu-study-buddy-finder.netlify.app)
+You can access the live version of the Study Buddy Finder at: [https://nu-study-buddy-finder-7co6.vercel.app](https://nu-study-buddy-finder-7co6.vercel.app)
 
 ## Features
 - User profile creation and management

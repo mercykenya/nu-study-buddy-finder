@@ -74,7 +74,8 @@ function FindBuddies() {
     preference: '',
     availability: ''
   });
-  const [setAppliedFilters] = useState({});
+   // eslint-disable-next-line
+  const [appliedFilters, setAppliedFilters] = useState({});
   const [filteredBuddies, setFilteredBuddies] = useState([]);
   const { fontSizes } = useFontSize();
 
@@ -87,7 +88,8 @@ function FindBuddies() {
 
   useEffect(() => {
     setFilteredBuddies(allBuddies);
-  }, [allBuddies]);
+     // eslint-disable-next-line
+  }, []);
 
   const handleFilterChange = (e) => {
     setFilters({
