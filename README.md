@@ -66,7 +66,7 @@ The Study Buddy Finder has been tested and is compatible with the following brow
 ## Project Video
 For a comprehensive demonstration of the Study Buddy Finder app, including its features, accessibility options, and responsive design, please view our project video:
 
-[Link to Project Video](https://www.example.com/project-video)
+[Link to Project Video](https://drive.google.com/file/d/16NMjhRKUXeIE0H26kuaECLdBwK6GQ2k1/view?usp=sharing)
 
 ## Deployment
 The application is deployed using Netlify. To deploy your own version:
